@@ -114,6 +114,41 @@ html{
 }
 
 
+.cardLinks{
+    display: flex;
+    width: 100%;
+
+    justify-content: center;
+}
+
+.links{
+    display: flex;
+    background-color: #121418;
+    width: 320px;
+    height: 30px;
+    align-content: center;
+    justify-content: center;
+    border-radius: 0px 0px 100px 100px;
+    justify-content: space-around;
+}
+
+.links button{
+    background-color: #1e2025;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 20px;
+    border: 0px;
+    width: 50px;
+    height: 25px;
+}
+
+.links button:hover{
+    background-color: #ca9128;
+    transition: 1s;
+
+}
+
+
 
 .portfolio{
     display: flex;
