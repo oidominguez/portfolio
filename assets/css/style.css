@@ -148,7 +148,7 @@ html{
     color: #fff;
 }
 
-.portfolio .product{
+.portfolio .productConteiner{
     display: flex;
     width: 100%;
     justify-content: center;
@@ -157,17 +157,19 @@ html{
     flex-wrap: wrap;
 }
 
-.portfolio .product .productBox{
-    position: relative;
+.portfolio .productConteiner .productBox{
+    display: flex;
+    background-color: #1e2025;
     width: 630px;
     height: 650px;
     margin: 5px;
-    display: flex;
+    border-radius: 20px;
+    
     justify-content: center;
     align-items: center;
 }
 
-.product .productBox.hide{
+.productConteiner .productBox.hide{
     display: none;
 }
 
